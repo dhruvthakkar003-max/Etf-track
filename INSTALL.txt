@@ -1,0 +1,8 @@
+ETF Tracker PWA installation
+
+1. Host these files on an HTTPS website (for example, your own web hosting or a static hosting service).
+2. Open the hosted URL in Chrome on Android.
+3. Open Chrome menu (⋮) and choose "Install app" or "Add to Home screen".
+4. Confirm installation. The app shell is cached by the service worker; market prices and external libraries still need internet.
+
+A ZIP file cannot itself be installed as an Android app. For a standalone APK, open the accompanying ETFTracker-Android-Project in Android Studio and build the APK as described in its README.
